@@ -1,0 +1,17 @@
+:host {
+  background: lightgray;
+  border-radius: 40px;
+  display: inline-block;
+  font-family: sans-serif;
+  padding: .5rem 1rem;
+}
+img {
+  height: 1rem;
+  margin-right: .5rem;
+  vertical-align: baseline;
+}
+
+:host-context(section) {
+  background: gray;
+  color: white;
+}
